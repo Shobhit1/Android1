@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.contactmanager.AddContact" >
+
+<!--     <item
+        android:id="@+id/action_edit_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/> -->
+    
+    <item
+        android:id="@+id/action_edit_edit"
+        android:icon="@drawable/ic_action_edit"
+        android:showAsAction="always"
+        android:title="@string/action_edit"/>
+
+    <!-- Adding the save button on the action bar -->
+    <item
+        android:id="@+id/action_edit_save"
+        android:icon="@drawable/ic_action_save"
+        android:showAsAction="always"
+        android:title="@string/action_save"/>
+
+    <!-- Delete button -->
+
+    <item
+        android:id="@+id/action_edit_delete"
+        android:icon="@drawable/ic_action_discard"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_delete"/>
+
+</menu>
